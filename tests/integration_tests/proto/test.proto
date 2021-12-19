@@ -2,9 +2,41 @@ syntax = "proto3";
 
 package test;
 
-service Test {
-  rpc UnaryCall(Input) returns (Output);
-}
+service Test {rpc UnaryCall(Input) returns (Output);}
+service Test2 {rpc UnaryCall(Input) returns (Output);}
+service Test3 {rpc UnaryCall(Input) returns (Output);}
+service Test4 {rpc UnaryCall(Input) returns (Output);}
+service Test5 {rpc UnaryCall(Input) returns (Output);}
+service Test6 {rpc UnaryCall(Input) returns (Output);}
+service Test7 {rpc UnaryCall(Input) returns (Output);}
+service Test8 {rpc UnaryCall(Input) returns (Output);}
+service Test9 {rpc UnaryCall(Input) returns (Output);}
+service Test10 {rpc UnaryCall(Input) returns (Output);}
+service Test11 {rpc UnaryCall(Input) returns (Output);}
+service Test12 {rpc UnaryCall(Input) returns (Output);}
+service Test13 {rpc UnaryCall(Input) returns (Output);}
+service Test14 {rpc UnaryCall(Input) returns (Output);}
+service Test15 {rpc UnaryCall(Input) returns (Output);}
+service Test16 {rpc UnaryCall(Input) returns (Output);}
+service Test17 {rpc UnaryCall(Input) returns (Output);}
+service Test18 {rpc UnaryCall(Input) returns (Output);}
+service Test19 {rpc UnaryCall(Input) returns (Output);}
+service Test20 {rpc UnaryCall(Input) returns (Output);}
+service Test21 {rpc UnaryCall(Input) returns (Output);}
+service Test22 {rpc UnaryCall(Input) returns (Output);}
+service Test23 {rpc UnaryCall(Input) returns (Output);}
+service Test24 {rpc UnaryCall(Input) returns (Output);}
+service Test25 {rpc UnaryCall(Input) returns (Output);}
+service Test26 {rpc UnaryCall(Input) returns (Output);}
+service Test27 {rpc UnaryCall(Input) returns (Output);}
+service Test28 {rpc UnaryCall(Input) returns (Output);}
+service Test29 {rpc UnaryCall(Input) returns (Output);}
+service Test30 {rpc UnaryCall(Input) returns (Output);}
+service Test31 {rpc UnaryCall(Input) returns (Output);}
+service Test32 {rpc UnaryCall(Input) returns (Output);}
+service Test33 {rpc UnaryCall(Input) returns (Output);}
+service Test34 {rpc UnaryCall(Input) returns (Output);}
+service Test35 {rpc UnaryCall(Input) returns (Output);}
 
 message Input {}
 message Output {}
